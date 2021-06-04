@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tugas5">
+        <activity android:name=".UpdateFood"></activity>
         <activity android:name=".AddFood" />
         <activity android:name=".MainActivity">
             <intent-filter>
