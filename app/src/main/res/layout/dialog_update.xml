@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_food"
+        android:hint="Masukkan Makanan"
+        android:padding="12dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_calorie"
+        android:hint="Masukkan Kalori"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_protein"
+        android:hint="Masukkan Protein"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_fat"
+        android:hint="Masukkan Lemak"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_carbohydrate"
+        android:hint="Masukkan Karbohidrat"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:gravity="top"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update"
+        android:text="Update"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
